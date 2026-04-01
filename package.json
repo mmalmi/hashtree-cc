@@ -1,5 +1,5 @@
 {
-  "name": "cc",
+  "name": "hashtree-cc",
   "private": true,
   "type": "module",
   "packageManager": "pnpm@10.23.0",

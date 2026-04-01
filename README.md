@@ -1,4 +1,4 @@
-# cc
+# hashtree-cc
 
 Standalone workspace for the `hashtree.cc` site/app and the local Hashtree TypeScript packages it currently depends on.
 
@@ -23,5 +23,5 @@ The release scripts auto-detect a sibling `../hashtree` checkout for the `htree`
 Git remote setup for Hashtree-first development:
 
 ```bash
-git remote add origin htree://self/cc
+git remote add origin htree://self/hashtree-cc
 ```

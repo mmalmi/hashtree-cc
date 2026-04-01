@@ -399,7 +399,7 @@
     />
     <div class="flex flex-wrap gap-3 justify-center">
       <a
-        href="https://git.iris.to/#/npub1xdhnr9mrv47kkrn95k6cwecearydeh8e895990n3acntwvmgk2dsdeeycm/cc/apps/hashtree-cc"
+        href="https://git.iris.to/#/npub1xdhnr9mrv47kkrn95k6cwecearydeh8e895990n3acntwvmgk2dsdeeycm/hashtree-cc/apps/hashtree-cc"
         class="btn-primary inline-flex items-center gap-2 no-underline"
         target="_blank"
         rel="noopener"
@@ -504,7 +504,7 @@
   <!-- Links -->
   <div class="flex flex-wrap gap-3 justify-center">
     <a
-      href="https://git.iris.to/#/npub1xdhnr9mrv47kkrn95k6cwecearydeh8e895990n3acntwvmgk2dsdeeycm/hashtree"
+      href="https://git.iris.to/#/npub1xdhnr9mrv47kkrn95k6cwecearydeh8e895990n3acntwvmgk2dsdeeycm/hashtree-cc"
       class="btn-primary inline-flex items-center gap-2 no-underline"
       target="_blank"
       rel="noopener"
