@@ -1,0 +1,34 @@
+{
+  "name": "cc",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.23.0",
+  "scripts": {
+    "dev": "pnpm --filter hashtree-cc dev",
+    "build:deps": "pnpm --filter hashtree-cc build:deps",
+    "build": "pnpm --filter hashtree-cc build",
+    "preview": "pnpm --filter hashtree-cc preview",
+    "test": "pnpm --filter hashtree-cc test:release && pnpm --filter hashtree-cc test",
+    "test:release": "pnpm --filter hashtree-cc test:release",
+    "test:e2e": "pnpm --filter hashtree-cc test:e2e",
+    "test:portable": "pnpm --filter hashtree-cc test:portable",
+    "smoke:portable": "pnpm --filter hashtree-cc smoke:portable",
+    "publish:portable": "pnpm --filter hashtree-cc publish:portable",
+    "release:site": "pnpm --filter hashtree-cc release:site"
+  },
+  "pnpm": {
+    "overrides": {
+      "@hashtree/core": "workspace:*",
+      "@hashtree/dexie": "workspace:*",
+      "@hashtree/index": "workspace:*",
+      "@hashtree/nostr": "workspace:*",
+      "@hashtree/worker": "workspace:*",
+      "ndk": "workspace:*",
+      "ndk-cache": "workspace:*",
+      "nostr-social-graph": "workspace:*"
+    },
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}
