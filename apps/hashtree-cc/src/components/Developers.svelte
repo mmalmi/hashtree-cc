@@ -408,7 +408,7 @@
         App Source
       </a>
       <a
-        href="https://git.iris.to/#/npub1xdhnr9mrv47kkrn95k6cwecearydeh8e895990n3acntwvmgk2dsdeeycm/hashtree/ts"
+        href="https://git.iris.to/#/npub1xdhnr9mrv47kkrn95k6cwecearydeh8e895990n3acntwvmgk2dsdeeycm/hashtree-cc/packages"
         class="btn-ghost inline-flex items-center gap-2 no-underline"
         target="_blank"
         rel="noopener"
