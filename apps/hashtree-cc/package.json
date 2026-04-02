@@ -18,7 +18,7 @@
     "preview": "vite preview",
     "test": "playwright test",
     "test:e2e": "playwright test",
-    "test:release": "node --test tests/releaseSite.test.mjs",
+    "test:release": "node --test tests/releaseSite.test.mjs tests/hashtreePaths.test.mjs",
     "test:portable": "pnpm run build && node --test tests/portable-build.test.mjs && node ./scripts/portable-smoke.mjs",
     "smoke:portable": "node ./scripts/portable-smoke.mjs",
     "publish:portable": "pnpm run build && node --test tests/portable-build.test.mjs && node ./scripts/portable-smoke.mjs && node ./scripts/publish-portable.mjs",

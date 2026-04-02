@@ -20,7 +20,9 @@ pnpm test:portable
 pnpm release:site -- --skip-cloudflare
 ```
 
-The release scripts auto-detect a sibling `../hashtree` checkout for the `htree` Rust CLI. Override that with `HASHTREE_REPO_ROOT`, `HASHTREE_RUST_DIR`, or `HTREE_BIN` when needed.
+The release scripts use an installed `htree` by default. If you want to run
+against a local Hashtree Rust checkout instead, set `HTREE_BIN`,
+`HASHTREE_RUST_DIR`, or `HASHTREE_REPO_ROOT`.
 
 Git remote setup for Hashtree-first development:
 

@@ -352,9 +352,9 @@ Environment:
   ${releaseProfile.workerNameEnv}   Default Worker name for hashtree.cc
   ${releaseProfile.pagesProjectEnv}   Default Pages project for hashtree.cc
   CF_WORKER_COMPATIBILITY_DATE   Default compatibility date for Worker deployments
-  HASHTREE_REPO_ROOT   Override sibling hashtree checkout used for the htree CLI
+  HASHTREE_REPO_ROOT   Override a vendored hashtree checkout used for the htree CLI
   HASHTREE_RUST_DIR   Override the rust/ directory used for the htree CLI
-  HTREE_BIN   Use an existing htree binary instead of cargo run
+  HTREE_BIN   Use an existing htree binary instead of cargo run or PATH lookup
 `;
 }
 

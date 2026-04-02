@@ -21,7 +21,9 @@ pnpm run release:site
 
 `pnpm run release:site` runs the same build and portable checks, publishes the resulting `dist/` directory to hashtree, and then deploys that same directory to a Cloudflare Worker service named `hashtree-cc` by default.
 
-The publish/release scripts automatically use a sibling `../hashtree` checkout for the Rust `htree` CLI when available. Override that with `HASHTREE_REPO_ROOT`, `HASHTREE_RUST_DIR`, or `HTREE_BIN` if the checkout lives somewhere else.
+The publish/release scripts use an installed `htree` by default. Set
+`HTREE_BIN`, `HASHTREE_RUST_DIR`, or `HASHTREE_REPO_ROOT` when you want to run
+against a specific local Hashtree Rust checkout instead.
 
 The live `https://hashtree.cc` domain is still served from GitHub Pages today, not Cloudflare, so the release script does not attach the production custom domain automatically. Once the zone is moved to Cloudflare, pass `--domain hashtree.cc` (or `--route hashtree.cc/*`) to cut traffic over there.
 
